@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import "./App.css";
 
 import Home from "./Home";
-import Events from "./Events";
+import Tickets from "./Tickets";
 import ShoppingCart from "./ShoppingCart";
 
 class AppContainer extends Component {
@@ -16,7 +16,7 @@ class AppContainer extends Component {
             <div className="App">
                 <header className="App-header">
                     <nav>
-                        <Link to="/events">Event Listing</Link>
+                        <Link to="/tickets">Ticket Listing</Link>
                         &nbsp;|&nbsp;
                         <Link to="/cart">Shopping Cart ({items})</Link>
                         &nbsp;|&nbsp; Total purchases: {purchases}

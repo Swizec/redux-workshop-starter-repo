@@ -23,7 +23,7 @@ const Home = () => (
         <P>
             Past purchases are stored in a Redux form, but we only show a count
         </P>
-        <Link to="/events">Click here to get started</Link>
+        <Link to="/tickets">Click here to get started</Link>
     </div>
 );
 

@@ -6,30 +6,30 @@ import { connect } from "react-redux";
 
 import { isInShoppingCart } from "./reducer";
 
-export const EventStyle = styled.div`
+export const TicketStyle = styled.div`
     display: flex;
     flex-direction: row;
     padding: 20px;
     align-items: center;
 `;
 
-const SelectableEventStyle = EventStyle.extend`
+const SelectableTicketStyle = TicketStyle.extend`
     cursor: pointer;
     &:hover {
         background: rgba(219, 112, 147, 0.3);
     }
 `;
 
-const SelectedEventStyle = EventStyle.extend`
+const SelectedTicketStyle = TicketStyle.extend`
     cursor: default;
     background: rgba(219, 112, 147, 0.3);
 `;
 
-const EventThumbStyle = styled.div`
+const ThumbStyle = styled.div`
     width: 250px;
 `;
 
-const EventMeta = styled.div`
+const TicketMeta = styled.div`
     display: flex;
     flex-direction: column;
     flex: 2;

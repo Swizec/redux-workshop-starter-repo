@@ -7,9 +7,9 @@ import Downshift from "downshift";
 import { fetchEventsNextPage } from "./actions";
 import { Button, Input } from "./FormElements";
 
-import { SelectableEvent } from "./Event";
+import { SelectableTicket } from "./Ticket";
 
-const EventListStyled = styled.div`
+const TicketListStyled = styled.div`
     display: flex;
     flex-direction: column;
     width: 760px;
